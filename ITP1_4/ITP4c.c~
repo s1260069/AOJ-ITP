@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+  int a,op,b;
+  scanf("%d %c %d",&a,&op,&b);
+  if(op == '+'){
+printf(a+b);
+  }else if(op == '-'){
+printf(a-b);
+  }else if(op == '*'){
+printf(a*b);
+  }else if(op == '/'){
+printf(a/b);
+}else break;
+}
+return 0;
+}
